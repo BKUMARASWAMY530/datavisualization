@@ -1,0 +1,110 @@
+{
+  "raw_rows": 244,
+  "raw_cols": 7,
+  "clean_rows": 243,
+  "duplicate_count": 1,
+  "missing_values": {
+    "total_bill": 0,
+    "tip": 0,
+    "sex": 0,
+    "smoker": 0,
+    "day": 0,
+    "time": 0,
+    "size": 0
+  },
+  "summary_stats": {
+    "total_bill": {
+      "count": 243.0,
+      "mean": 19.8139,
+      "std": 8.9101,
+      "min": 3.07,
+      "25%": 13.38,
+      "50%": 17.81,
+      "75%": 24.175,
+      "max": 50.81
+    },
+    "tip": {
+      "count": 243.0,
+      "mean": 3.0024,
+      "std": 1.385,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 2.92,
+      "75%": 3.575,
+      "max": 10.0
+    },
+    "size": {
+      "count": 243.0,
+      "mean": 2.572,
+      "std": 0.9524,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 2.0,
+      "75%": 3.0,
+      "max": 6.0
+    }
+  },
+  "tip_by_day": {
+    "Thur": {
+      "count": 61,
+      "mean": 2.7841,
+      "median": 2.31,
+      "std": 1.2465,
+      "min": 1.25,
+      "max": 6.7
+    },
+    "Fri": {
+      "count": 19,
+      "mean": 2.7347,
+      "median": 3.0,
+      "std": 1.0196,
+      "min": 1.0,
+      "max": 4.73
+    },
+    "Sat": {
+      "count": 87,
+      "mean": 2.9931,
+      "median": 2.75,
+      "std": 1.631,
+      "min": 1.0,
+      "max": 10.0
+    },
+    "Sun": {
+      "count": 76,
+      "mean": 3.2551,
+      "median": 3.15,
+      "std": 1.2349,
+      "min": 1.01,
+      "max": 6.5
+    }
+  },
+  "avg_by_time": {
+    "Lunch": {
+      "total_bill": 17.2309,
+      "tip": 2.739,
+      "size": 2.4179
+    },
+    "Dinner": {
+      "total_bill": 20.7972,
+      "tip": 3.1027,
+      "size": 2.6307
+    }
+  },
+  "correlation": {
+    "total_bill": {
+      "total_bill": 1.0,
+      "tip": 0.675,
+      "size": 0.5976
+    },
+    "tip": {
+      "total_bill": 0.675,
+      "tip": 1.0,
+      "size": 0.4884
+    },
+    "size": {
+      "total_bill": 0.5976,
+      "tip": 0.4884,
+      "size": 1.0
+    }
+  }
+}

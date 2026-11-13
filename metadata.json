@@ -1,0 +1,6 @@
+{
+  "name": "Data Visualization with Matplotlib & Seaborn",
+  "description": "A complete beginner-friendly Data Science project exploring the Seaborn tips dataset with Exploratory Data Analysis, six statistical charts, a 2x2 executive dashboard, and reproducible Python & Jupyter Notebook deliverables.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
